@@ -3,4 +3,12 @@
     <string name="even_strength">Even Strength Goal</string>
     <string name="power_play">Power Play Goal</string>
     <string name="short_handed">Short Handed Goal</string>
+    <string name="button_name">Reset</string>
+    <string name="heading_even_strength">Even Strength Goals</string>
+    <string name="heading_power_play">Power Play Goals</string>
+    <string name="heading_short_handed">Short Handed Goals</string>
+    <string name="heading_total">Totals Goals</string>
+    <string name="default_score">0</string>
+    <string name="name_team_a">Team A</string>
+    <string name="name_team_b">Team B</string>
 </resources>

@@ -8,7 +8,6 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
         android:orientation="horizontal"
         android:paddingTop="16dp">
 
@@ -26,7 +25,7 @@
                 android:fontFamily="sans-serif-medium"
                 android:gravity="center_horizontal"
                 android:layout_marginBottom="16dp"
-                android:text="Team A"
+                android:text="@string/name_team_a"
                 android:textColor="#616161"
                 android:textSize="18sp"/>
 
@@ -35,7 +34,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-medium"
                 android:gravity="center_horizontal"
-                android:text="Total Goals"
+                android:text="@string/heading_total"
                 android:textColor="#616161"
                 android:textSize="14sp"/>
 
@@ -45,7 +44,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-light"
                 android:gravity="center_horizontal"
-                android:text="0"
+                android:text="@string/default_score"
                 android:textColor="#000000"
                 android:textSize="32sp"
                 android:textStyle="bold"/>
@@ -55,7 +54,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-medium"
                 android:gravity="center_horizontal"
-                android:text="Power Play Goals"
+                android:text="@string/heading_power_play"
                 android:layout_marginTop="8dp"
                 android:textColor="#616161"
                 android:textSize="14sp"/>
@@ -66,7 +65,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-light"
                 android:gravity="center_horizontal"
-                android:text="0"
+                android:text="@string/default_score"
                 android:textColor="#000000"
                 android:textSize="24sp" />
 
@@ -76,7 +75,7 @@
                 android:fontFamily="sans-serif-medium"
                 android:gravity="center_horizontal"
                 android:layout_marginTop="8dp"
-                android:text="Short Handed Goals"
+                android:text="@string/heading_short_handed"
                 android:textColor="#616161"
                 android:textSize="14sp"/>
 
@@ -86,11 +85,12 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-light"
                 android:gravity="center_horizontal"
-                android:text="0"
+                android:text="@string/default_score"
                 android:textColor="#000000"
                 android:textSize="24sp" />
 
             <Button
+                android:id="@+id/add_a_even_goals"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
@@ -134,7 +134,7 @@
                 android:fontFamily="sans-serif-medium"
                 android:gravity="center_horizontal"
                 android:layout_marginBottom="16dp"
-                android:text="Team B"
+                android:text="@string/name_team_b"
                 android:textColor="#616161"
                 android:textSize="18sp"/>
 
@@ -143,7 +143,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-medium"
                 android:gravity="center_horizontal"
-                android:text="Total Goals"
+                android:text="@string/heading_total"
                 android:textColor="#616161"
                 android:textSize="14sp"/>
 
@@ -153,7 +153,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-light"
                 android:gravity="center_horizontal"
-                android:text="0"
+                android:text="@string/default_score"
                 android:textColor="#000000"
                 android:textSize="32sp"
                 android:textStyle="bold"/>
@@ -163,7 +163,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-medium"
                 android:gravity="center_horizontal"
-                android:text="Power Play Goals"
+                android:text="@string/heading_power_play"
                 android:layout_marginTop="8dp"
                 android:textColor="#616161"
                 android:textSize="14sp"/>
@@ -174,7 +174,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-light"
                 android:gravity="center_horizontal"
-                android:text="0"
+                android:text="@string/default_score"
                 android:textColor="#000000"
                 android:textSize="24sp" />
 
@@ -184,7 +184,7 @@
                 android:fontFamily="sans-serif-medium"
                 android:gravity="center_horizontal"
                 android:layout_marginTop="8dp"
-                android:text="Short Handed Goals"
+                android:text="@string/heading_short_handed"
                 android:textColor="#616161"
                 android:textSize="14sp"/>
 
@@ -194,11 +194,12 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-light"
                 android:gravity="center_horizontal"
-                android:text="0"
+                android:text="@string/default_score"
                 android:textColor="#000000"
                 android:textSize="24sp" />
 
             <Button
+                android:id="@+id/add_b_even_goals"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
@@ -231,7 +232,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:onClick="resetScore"
-        android:text="Reset" />
+        android:text="@string/button_name" />
 
 </RelativeLayout>
 
