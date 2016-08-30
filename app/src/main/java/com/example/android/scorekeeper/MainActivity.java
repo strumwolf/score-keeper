@@ -48,7 +48,6 @@ public class MainActivity extends AppCompatActivity {
             case R.id.add_a_pp_goal:
                 scoreTeamA = scoreTeamA + 1;
                 ppgTeamA = ppgTeamA + 1;
-                Log.i("goals", "" + scoreTeamA);
                 displayScore(scoreTeamA, teamAScoreId);
                 displayPowerPlayGoals(ppgTeamA, teamAPpgId);
                 break;
