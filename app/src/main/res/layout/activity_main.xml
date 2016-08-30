@@ -90,28 +90,26 @@
                 android:textSize="24sp" />
 
             <Button
+                style="@style/ButtonTheme"
                 android:id="@+id/add_a_even_goal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="8dp"
                 android:onClick="addEvenStrengthGoals"
-                android:paddingBottom="8dp"
                 android:text="@string/even_strength" />
 
             <Button
+                style="@style/ButtonTheme"
                 android:id="@+id/add_a_pp_goal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="8dp"
                 android:onClick="addPowerPlayGoal"
-                android:paddingBottom="8dp"
                 android:text="@string/power_play" />
 
             <Button
+                style="@style/ButtonTheme"
                 android:id="@+id/add_a_sh_goal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="8dp"
                 android:onClick="addShortHandedGoal"
                 android:text="@string/short_handed" />
 
@@ -201,28 +199,26 @@
                 android:textSize="24sp" />
 
             <Button
+                style="@style/ButtonTheme"
                 android:id="@+id/add_b_even_goal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="8dp"
                 android:onClick="addEvenStrengthGoals"
-                android:paddingBottom="8dp"
                 android:text="@string/even_strength" />
 
             <Button
+                style="@style/ButtonTheme"
                 android:id="@+id/add_b_pp_goal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="8dp"
                 android:onClick="addPowerPlayGoal"
-                android:paddingBottom="8dp"
                 android:text="@string/power_play" />
 
             <Button
+                style="@style/ButtonTheme"
                 android:id="@+id/add_b_sh_goal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="8dp"
                 android:onClick="addShortHandedGoal"
                 android:text="@string/short_handed" />
 
@@ -231,6 +227,7 @@
     </LinearLayout>
 
     <Button
+        style="@style/ButtonTheme"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
